@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  display: block;
+}
+header nav {
+  color: blue;
+}
+.login-form {
+  background: gray;
+  font-weight: bold;
+}
+.main-page-login-form {
+  background: white;
+}
+footer nav {
+  color: gray;
+}
+.container {
+  height: 150px;
+  border: 10px solid black;
+  display: flex;
+}
+.square {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title {
+  color: blue;
+  font-weight: normal;
+}
+#languages-list {
+  text-decoration: underline;
+}
+#main-title {
+  color: blue;
+}
+p {
+  font-size: 20px;
+}
+body h1 .green-text:hover {
+  color: green;
+}
+.bold-text {
+  font-weight: bold;
+}
+li::after {
+  content: ">"
+}
